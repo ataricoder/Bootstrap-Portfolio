@@ -1,0 +1,235 @@
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 80px;
+  background-color: #fafafa;
+}
+
+h1 {
+	font-family: 'Avenir', sans-serif;
+	font-size: 26px;
+	color: #4aaaa5;
+	padding: 20px 10px 10px 20px;
+	font-weight: 700;
+}
+
+h2 {
+	font-family: 'Avenir', sans-serif;
+	font-size: 22px;
+	color: #4aaaa5;
+	padding: 30px 10px 10px 5px;
+	font-weight: 700;
+}
+.fa {
+	font-size: 64px;
+	color: black;
+
+
+}
+a:hover {
+  opacity: 0.5; 
+}
+a:active { 
+  color: white !important;
+}
+.navbar {
+	padding: 0px 20px 0px 20px;
+	border-bottom: 1px solid rgba(0,0,0,.0975);
+	background-color: #ffffff;
+	height: 77px;
+	
+}
+
+
+.header-name {
+	color: #000000;
+}
+
+.links-right {
+	justify-content: flex-end;
+}
+
+.navbar-brand {
+	background-color: #ffffff;
+	padding: 20px;
+	font-family: 'Avenir', sans-serif;
+	color: #000000;
+	font-size: 24px;
+	height: 70px;
+}
+
+.main-content {
+	margin-top: 100px;
+}
+
+.about {
+	width: 100%;
+	border: 1px solid rgba(0,0,0,.0975);
+	font-family: 'Avenir', sans-serif;
+	padding: 15px;
+	margin-bottom: 100px;
+	background-color: #ffffff;
+}
+
+.connect {
+	
+	border: 1px solid rgba(0,0,0,.0975);
+	font-family: 'Avenir', sans-serif;
+	padding: 0px 20px 20px 20px;
+	margin-bottom: 50px;
+	background-color: #ffffff;
+}
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  line-height: 60px;
+  background-color: #ffffff;
+  text-align: center;
+  color: #000000;
+  border-top: 1px solid rgba(0,0,0,.0975);
+  font-size: 16px;
+  padding-top: 8px;
+}
+
+.hr-main {
+	margin: 15px 0px 20px 0px;
+	background-color: #cccccc; 
+	height: 1px; 
+}
+
+.hr-connect {
+	margin: 15px 0px 20px 0px;
+	background-color: #cccccc; 
+	height: 1px; 
+	border: 0; 
+}
+
+.pro-pic {
+	max-width: 300px;
+	max-height: 330px;
+	float: left;
+	margin: 10px 20px 0px;
+
+}
+
+.github {
+	height: 60px;
+	width: 60px;
+	margin: 10px 0px 20px 5px;
+}
+
+.linkedin {
+	height: 60px;
+	width: 60px;
+	margin: 10px 0px 20px 9px;
+}
+
+.stackoverflow {
+	height: 75px;
+	width: 75px;
+	margin: 0px 0px 20px 0px;
+}
+
+.gallery-images{
+    border: 1px solid #ccc;	
+}
+
+.image-overlay1, .image-overlay2, .image-overlay3, .image-overlay4, .image-overlay5 {
+	position: relative;
+	width:280px;
+	margin:20px;
+}
+ 
+.text-overlay1, .text-overlay2, .text-overlay3, .text-overlay4, .text-overlay5 {
+	position: absolute; 
+    top: 130px;
+    left: 0px; 
+    width: 100%; 
+    padding: 20px 0px 20px 10px;
+    background-color: #ffffff;
+    font-family: 'Avenir', sans-serif;
+	color: #000000;
+	font-size: 18px;
+	text-align: center;
+	float: left;
+}
+
+
+
+@media(max-width: 768px){
+
+.navbar {
+	background-color: #ffffff;
+}
+
+.navbar-brand {
+	width:80%;
+	text-align: center;
+	font-size:30px;
+	font-weight: bold;
+}
+
+.text-overlay1, .text-overlay2, .text-overlay3, .text-overlay4, .text-overlay5 {
+    top: 250px;
+
+}
+
+.image-overlay1, .image-overlay2, .image-overlay3, .image-overlay4, .image-overlay5 {
+	position: relative;
+	width:480px;
+	margin:20px;
+}
+}
+
+@media (max-width: 992px) {
+.github {
+	height: 60px;
+	width: 60px;
+	margin: 10px 0px 20px 80px;
+	}
+
+.linkedin {
+	height: 60px;
+	width: 60px;
+	margin: 10px 0px 20px 50px;
+	}
+}
+
+@media(min-width: 1200px){
+.navbar-brand{
+	margin-left: 75px;
+	}
+.connect {
+	padding: 0px 20px 20px 20px;
+	}
+
+.github {
+	margin-left: 10px;
+	}
+
+
+
+}
+
+@media(max-width: 1200px){
+
+.connect {
+	padding-right:20px;
+}
+
+.image-overlay1, .image-overlay2, .image-overlay3, .image-overlay4, .image-overlay5 {
+	margin: 20px 0px 20px 0px;
+}
+
+}
+
+
